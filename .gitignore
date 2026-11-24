@@ -12,8 +12,8 @@ __pycache__/
 .DS_Store
 .cursor/
 
-# Instance / private run data — never publish these
-# Keep conversations, transcripts, and topic/persona content in quorum-instance (private).
+# Instance / private run data — stay on quorum-instance until deliberately shared.
+# To publish a conversation, copy a curated export into shared/ (tracked) and commit there.
 conversations/
 transcripts/
 outputs/
