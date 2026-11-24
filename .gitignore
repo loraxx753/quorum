@@ -1,0 +1,27 @@
+# Dependencies and build
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.tsbuildinfo
+
+# Secrets and local tooling
+.env
+.env.*
+!.env.example
+.DS_Store
+.cursor/
+
+# Instance / private run data — never publish these
+# Keep conversations, transcripts, and topic/persona content in quorum-instance (private).
+conversations/
+transcripts/
+outputs/
+sandbox/
+source-files/personas/
+source-files/topics/
+source-files/drafts/
+source-files/answers/
+*.private.md
+*-private.md
+founder-os-guardrails-private.md
